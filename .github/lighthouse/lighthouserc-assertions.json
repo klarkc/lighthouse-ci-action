@@ -10,7 +10,7 @@
         "uses-rel-preconnect": ["warn", { "numericValue": 0 }],
         "maskable-icon": ["warn", { "minScore": 0.9 }],
         "categories:performance": ["error", { "minScore": 0.9 }],
-        "categories:pwa": "off"
+        "categories:pwa": ["error", { "minScore": 0.9 }]
       }
     }
   }
