@@ -9,7 +9,10 @@
         "render-blocking-resources": ["warn", { "numericValue": 0 }],
         "uses-rel-preconnect": ["warn", { "numericValue": 0 }],
         "maskable-icon": ["warn", { "minScore": 0.9 }],
-        "categories:performance": ["error", { "minScore": 1 }]
+        "categories:performance": ["error", { "minScore": 1 }],
+        "categories:seo": ["error", { "minScore": 1 }],
+        "categories:best-pratices": ["error", { "minScore": 1 }],
+        "categories:accessibility": ["error", { "minScore": 1 }]
       }
     }
   }
